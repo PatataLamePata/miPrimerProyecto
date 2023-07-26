@@ -1,0 +1,59 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+
+
+body {
+    margin: 0;
+}
+
+main {
+    display: grid;
+}   
+
+header {
+    background-color: #111;
+}
+
+.cabezal {
+    display: grid;
+    grid-area: header;
+    background-color: #111;
+    grid-template-columns: minmax(240px, 1fr) minmax(200px, 800px) minmax(240px, 1fr);  
+}
+
+.zonaLogo{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#logoRito{
+    height: 32px;
+    width: 95px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#logoEsports{
+    height: 22px;
+    width: 42px;
+}
+
+menu {
+    grid-area: menu;
+    background-color: #0f1519;
+}
+
+main {
+    grid-area: main;
+    background-color: #66f;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #66f;
+}
+
